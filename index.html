@@ -1,9 +1,106 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Mi Web</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estadio Santiago Bernabéu</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #003399;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #f2f2f2;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #003399;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffcc00;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .highlight {
+            background-color: #ffcc00;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #003399;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        h2 {
+            color: #003399;
+        }
+    </style>
 </head>
 <body>
-    <h1>Página en construcción</h1>
+    <!-- Encabezado con título -->
+    <header id="header">
+        <h1>Estadio Santiago Bernabéu</h1>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav id="menu">
+        <a href="#historia">Historia</a>
+        <a href="#instalaciones">Instalaciones</a>
+        <a href="#eventos">Eventos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <!-- Sección Historia -->
+    <section id="historia" class="seccion">
+        <h2>Historia del Bernabéu</h2>
+        <p>El estadio <span class="highlight">Santiago Bernabéu</span> fue inaugurado en 1947 y es el hogar del Real Madrid. Ha sido testigo de innumerables partidos históricos y ha sufrido varias remodelaciones para convertirse en un estadio moderno.</p>
+    </section>
+
+    <!-- Sección Instalaciones -->
+    <section id="instalaciones" class="seccion">
+        <h2>Instalaciones</h2>
+        <p>El Bernabéu cuenta con capacidad para más de 80.000 espectadores, palcos VIP, tiendas oficiales, museo y restaurantes. Es uno de los estadios más icónicos del mundo.</p>
+    </section>
+
+    <!-- Sección Eventos -->
+    <section id="eventos" class="seccion">
+        <h2>Eventos</h2>
+        <p>Además de partidos de fútbol, el estadio alberga conciertos, tours guiados y eventos corporativos.</p>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="seccion">
+        <h2>Contacto</h2>
+        <p>Para más información, visita la <a href="https://www.realmadrid.com/espacio-bernabeu" target="_blank">web oficial del Bernabéu</a>.</p>
+    </section>
+
+    <!-- Pie de página -->
+    <footer id="footer">
+        <p>&copy; 2025 Santiago Bernabéu | Real Madrid CF</p>
+    </footer>
 </body>
 </html>
