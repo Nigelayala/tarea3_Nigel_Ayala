@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estadio Santiago Bernabéu</title>
     <style>
+
         /* Estilos generales */
         body {
             font-family: Arial, sans-serif;
@@ -22,10 +23,17 @@
         nav {
             background-color: #f2f2f2;
             padding: 10px 0;
+=======
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+
             text-align: center;
         }
 
         nav a {
+
             margin: 0 15px;
             text-decoration: none;
             color: #003399;
@@ -46,11 +54,28 @@
             background-color: #ffcc00;
             padding: 5px;
             border-radius: 5px;
+=======
+            margin: 0 10px;
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+        }
+
+        section {
+            margin: 40px 0;
+        }
+
+        img, iframe {
+            max-width: 90%;
+            height: auto;
+            margin: 20px 0;
+
         }
 
         footer {
             background-color: #003399;
             color: white;
+
             text-align: center;
             padding: 20px 0;
         }
@@ -63,6 +88,13 @@
 <body>
 
     <h1>Página principal CONFLICTO MAIN</h1>
+=======
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
     <!-- Encabezado con título -->
     <header id="header">
         <h1>Estadio Santiago Bernabéu</h1>
@@ -71,12 +103,18 @@
     <!-- Menú de navegación -->
     <nav id="menu">
         <a href="#historia">Historia</a>
+
         <a href="#instalaciones">Instalaciones</a>
         <a href="#eventos">Eventos</a>
+=======
+        <a href="#video">Video</a>
+        <a href="#mapa">Ubicación</a>
+
         <a href="#contacto">Contacto</a>
     </nav>
 
     <!-- Sección Historia -->
+
     <section id="historia" class="seccion">
         <h2>Historia del Bernabéu</h2>
         <p>El estadio <span class="highlight">Santiago Bernabéu</span> fue inaugurado en 1947 y es el hogar del Real Madrid. Ha sido testigo de innumerables partidos históricos y ha sufrido varias remodelaciones para convertirse en un estadio moderno.</p>
@@ -98,12 +136,38 @@
     <section id="contacto" class="seccion">
         <h2>Contacto</h2>
         <p>Para más información, visita la <a href="https://www.realmadrid.com/espacio-bernabeu" target="_blank">web oficial del Bernabéu</a>.</p>
+=======
+    <section id="historia">
+        <h2>Historia</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Santiago_Bernabéu_Stadium_2018.jpg" alt="Vista aérea del estadio Santiago Bernabéu" width="800" height="450">
+    </section>
+
+    <!-- Sección Video -->
+    <section id="video">
+        <h2>Video</h2>
+        <iframe width="560" height="315" src="https://youtu.be/k4aF0payZzI?si=PGZwT_MrFcolyhZJ" title="Tour Virtual Santiago Bernabéu" allowfullscreen></iframe>
+    </section>
+
+    <!-- Sección Mapa -->
+    <section id="mapa">
+        <h2>Ubicación</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3031.344031282119!2d-3.689583484606374!3d40.45305457936409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42289caebd4091%3A0x6c0c3a5e0a2b5c0!2sSantiago%20Bernab%C3%A9u%20Stadium!5e0!3m2!1ses!2ses!4v1697700000000" width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <a href="https://www.realmadrid.com/espacio-bernabeu" target="_blank">Web oficial del Bernabéu</a>
+
     </section>
 
     <!-- Pie de página -->
     <footer id="footer">
         <p>&copy; 2025 Santiago Bernabéu | Real Madrid CF</p>
     </footer>
+
+
+=======
 
 </body>
 </html>
